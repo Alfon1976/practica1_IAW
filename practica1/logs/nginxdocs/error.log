@@ -1,0 +1,2 @@
+[Sat Oct 03 23:51:32.895905 2026] [authz_core:error] [pid 7:tid 27] [client 172.25.0.1:47898] AH01630: client denied by server configuration: /var/www/nginxdocs/documentos/configuracion-nimbus.conf
+[Sun Oct 04 00:03:52.395516 2026] [authz_core:error] [pid 10:tid 39] [client 172.26.0.1:53692] AH01630: client denied by server configuration: /var/www/nginxdocs/documentos/configuracion-nimbus.conf

@@ -1,0 +1,16 @@
+services:
+
+  nimbusdocs-apache:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: nimbusdocs-apache
+
+    ports:
+      - "8080:80"
+
+    volumes:
+      - ./logs:/var/log/apache2/nimbusdocs
+
+    restart: unless-stopped
